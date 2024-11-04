@@ -1,0 +1,61 @@
+<br>
+<div class="title" @slideInFromLeft>
+  Twoje cele
+</div>
+<br><br>
+
+<div class="dropdown" dropdown @slideInFromLeft>
+  <button id="dropdownBasic" dropdownToggle type="button" class="btn btn-primary" (click)="onClick()">
+    Dodaj <span class="caret"></span>
+  </button> <br> <br>
+  <ul *dropdownMenu class="dropdown-menu" role="menu" aria-labelledby="dropdownBasic">
+    <li role="menuitem" *ngIf="this.goal?.water == 0"><a class="dropdown-item" (click)="openDialog('Woda')">Woda</a></li>
+    <li role="menuitem" *ngIf="this.goal?.calories == 0"><a class="dropdown-item" (click)="openDialog('Kalorie')">Kalorie</a></li>
+    <li role="menuitem" *ngIf="this.goal?.steps == 0"><a class="dropdown-item" (click)="openDialog('Kroki')">Kroki</a></li>
+  </ul>
+</div>
+
+<div class="goal" *ngIf="this.goal?.calories != 0" @slideInFromLeft>
+  <div class="activity-name">
+    Kalorie
+  </div>
+  <div class="amount">
+    {{this.goal?.calories}}
+  </div>
+  <div class="edit">
+    <button type="button" class="btn btn-primary btn-sm" (click)="openDialog('Kalorie')">Edytuj</button>
+  </div>
+  <div class="delete">
+    <button type="button" class="btn btn-danger btn-sm" (click)="deleteCaloriesGoal()">Usuń</button>
+  </div>
+</div>
+
+<div class="goal" *ngIf="this.goal?.steps != 0" @slideInFromLeft>
+  <div class="activity-name">
+    Kroki
+  </div>
+  <div class="amount">
+    {{this.goal?.steps}}
+  </div>
+  <div class="edit">
+    <button type="button" class="btn btn-primary btn-sm" (click)="openDialog('Kroki')">Edytuj</button>
+  </div>
+  <div class="delete">
+    <button type="button" class="btn btn-danger btn-sm" (click)="deleteStepsGoal()">Usuń</button>
+  </div>
+</div>
+
+<div class="goal" *ngIf="this.goal?.water != 0" @slideInFromLeft>
+  <div class="activity-name">
+    Woda
+  </div>
+  <div class="amount">
+    {{this.goal?.water}}
+  </div>
+  <div class="edit">
+    <button type="button" class="btn btn-primary btn-sm" (click)="openDialog('Woda')">Edytuj</button>
+  </div>
+  <div class="delete">
+    <button type="button" class="btn btn-danger btn-sm" (click)="deleteWaterGoal()">Usuń</button>
+  </div>
+</div>

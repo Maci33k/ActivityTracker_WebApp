@@ -1,0 +1,118 @@
+<div class="row" @slideInFromLeft>
+  <div class="col-3">
+    <div class="tile-container">
+      <div class="tile" (click)="heightClick()">
+        <div class="after-click" [@slideAnimation]="heightClicked.toString()" [hidden]="!heightClicked">
+          <input type="number" class="form-control" (click)="stopPropagations($event)" [(ngModel)]="height" name="height">
+          <div style="margin-top: 5%;">
+          <button type="submit" class="btn btn-primary" (click)="onSubmitHeight($event)">
+            Zatwierdź
+          </button>
+        </div>
+        </div>
+        <div class="tile-content" *ngIf="!heightClicked">
+          Wzrost
+        </div>
+        <div class="tile-content" *ngIf="!heightClicked">
+          {{configData.height}} cm
+        </div>
+      </div>
+    </div>
+    <div class="tile-container">
+      <div class="tile" (click)="genderClick()">
+        <div class="after-click" [@slideAnimation]="genderClicked.toString()" [hidden]="!genderClicked">
+          <label>
+            <input type="radio" name="gender" value="men" [(ngModel)]="gender" (click)="stopPropagations($event)">
+            Mężczyzna
+          </label>
+          <label>
+            <input type="radio" name="gender" value="woman" [(ngModel)]="gender" (click)="stopPropagations($event)">
+            Kobieta
+          </label>
+          <div style="margin-top: 5%;">
+          <button type="submit" class="btn btn-primary" (click)="onSubmitGender($event)">
+            Zatwierdź
+          </button>
+        </div>
+        </div>
+        <div class="tile-content" *ngIf="!genderClicked">
+          Płeć
+        </div>
+        <div class="tile-content" *ngIf="!genderClicked && configData.gender == 'men'">
+          Mężczyzna
+        </div>
+        <div class="tile-content" *ngIf="!genderClicked && configData.gender == 'woman'">
+          Kobieta
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="image">
+      <img src="assets/created-by-ai-8648630_1920.png" style="height: 100%; width: 100%;">
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="tile-container">
+      <div class="tile" (click)="weightClick()">
+        <div class="after-click" [@slideAnimation]="weightClicked.toString()" [hidden]="!weightClicked">
+          <input type="number" class="form-control" (click)="stopPropagations($event)" [(ngModel)]="weight" name="weight">
+          <div style="margin-top: 5%;">
+          <button type="submit" class="btn btn-primary" (click)="onSubmitWeight($event)">
+            Zatwierdź
+          </button>
+        </div>
+        </div>
+        <div class="tile-content" *ngIf="!weightClicked">
+          Waga
+        </div>
+        <div class="tile-content" *ngIf="!weightClicked">
+          {{configData.weight}} kg
+        </div>
+      </div>
+    </div>
+    <div class="tile-container">
+      <div class="tile" (click)="fitnessClick()">
+        <div class="after-click" [@slideAnimation]="fitnessClicked.toString()" [hidden]="!fitnessClicked">
+          <label>
+            <input type="radio" name="fitness" value="low" [(ngModel)]="fitness" (click)="stopPropagations($event)">
+            Niski
+          </label>
+          <label>
+            <input type="radio" name="fitness" value="average" [(ngModel)]="fitness" (click)="stopPropagations($event)">
+            Przeciętny
+          </label>
+          <label>
+            <input type="radio" name="fitness" value="high" [(ngModel)]="fitness" (click)="stopPropagations($event)">
+            Wysoki
+          </label>
+          <div style="margin-top: 5%;">
+          <button type="submit" class="btn btn-primary" (click)="onSubmitFitness($event)">
+            Zatwierdź
+          </button>
+        </div>
+        </div>
+        <div class="tile-content-first2" *ngIf="!fitnessClicked">
+          Stopień wysportowania
+        </div>
+        <div class="tile-content-second2" *ngIf="!fitnessClicked && configData.fitness == 'high'">
+          Wysoki
+        </div>
+        <div class="tile-content-second2" *ngIf="!fitnessClicked && configData.fitness == 'low'">
+          Niski
+        </div>
+        <div class="tile-content-second2" *ngIf="!fitnessClicked && configData.fitness == 'average'">
+          Przeciętny
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<div class="row" style="height: 10px;" @slideInFromLeft>
+  <div class="col-3" style="height: 10px;"></div>
+  <div class="col-3" style="height: 10px;">
+  </div>
+  <div class="col-3" style="height: 10px;"></div>
+</div>

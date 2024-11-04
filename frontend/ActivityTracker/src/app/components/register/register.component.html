@@ -1,0 +1,104 @@
+<video #videoBackground muted loop class="video-background">
+  <source src="assets/3048930-uhd_3840_2160_24fps.mp4" type="video/mp4">
+  Twój przeglądarka nie wspiera tagu wideo.
+</video>
+
+
+<div class="container">
+  <div id="app-name" *ngIf="!firstPartDone">Activity Tracker</div>
+  <div class="login-container" *ngIf="!firstPartDone">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <div id="login-text">Zarejestruj się</div>
+        <div class="login-form">
+          <input type="email"
+           class="form-control"
+            id="form-input"
+             aria-describedby="emailHelp"
+            placeholder="Adres e-mail"
+             formControlName="email"
+             [class.invalid]="registerForm.get('email')?.invalid
+             && (registerForm.get('email')?.dirty || registerForm.get('email')?.touched || isSubmitted)"
+             [(ngModel)]="user.email" id="email" name="email">
+          <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div *ngIf="registerForm.get('email')?.invalid
+        && (registerForm.get('email')?.dirty || registerForm.get('email')?.touched || isSubmitted)" class="error">
+          To pole jest wymagane
+      </div>
+      </div>
+      <div class="login-form">
+        <input type="username" class="form-control" id="form-input" aria-describedby="usernameHelp"
+          placeholder="Nazwa użytkownika" formControlName="username" formControlName="username"
+          [class.invalid]="registerForm.get('username')?.invalid
+          && (registerForm.get('username')?.dirty || registerForm.get('username')?.touched || isSubmitted)"
+          [(ngModel)]="user.username" id="username" name="username">
+        <small id="usernameHelp" class="form-text text-muted"></small>
+      </div>
+      <div *ngIf="registerForm.get('username')?.invalid
+        && (registerForm.get('username')?.dirty || registerForm.get('username')?.touched || isSubmitted)" class="error">
+          To pole jest wymagane
+      </div>
+      <div class="form-group">
+        <div class="login-form">
+          <input type="password" class="form-control" id="form-input" placeholder="Podaj hasło" formControlName="password"
+          [class.invalid]="registerForm.get('password')?.invalid
+          && (registerForm.get('password')?.dirty || registerForm.get('password')?.touched || isSubmitted)"
+          [(ngModel)]="user.password" id="password" name="password">
+        </div>
+        <div *ngIf="registerForm.get('password')?.invalid
+        && (registerForm.get('password')?.dirty || registerForm.get('password')?.touched || isSubmitted)" class="error">
+          To pole jest wymagane
+      </div>
+      </div>
+      <div class="form-group">
+        <div class="login-form">
+          <input type="password" class="form-control" formControlName="repeatPassword"  placeholder="Podaj hasło ponownie"
+          [class.invalid]="registerForm.hasError('mismatch') && registerForm.get('repeatPassword')?.touched">
+        </div>
+        <div *ngIf="registerForm.hasError('mismatch') && registerForm.get('repeatPassword')?.touched" class="error">
+          Hasła muszą być identyczne
+        </div>
+      </div>
+      <div id="login-button">
+        <button type="submit" class="btn btn-primary" [disabled]="registerForm.invalid" >Rejestracja</button>
+      </div>
+    </form>
+  </div>
+
+  <div id="app-name"*ngIf="firstPartDone">Activity Tracker</div>
+  <div class="login-container" *ngIf="firstPartDone">
+      <div id="login-text">Powiedz coś więcej o sobie</div>
+      <form [formGroup]="personalDataForm" (ngSubmit)="onSubmit2()">
+        <div class="form-group">
+          <div class="login-form">
+          <input type="text" class="form-control" placeholder="Imię" formControlName="name">
+        </div>
+        <div class="login-form">
+          <input type="text" class="form-control" placeholder="Nazwisko" formControlName="surname">
+        </div>
+        <div class="login-form">
+          <label>
+            <input type="radio" name="gender" value="men" formControlName="gender">
+            Mężczyzna &nbsp;&nbsp;&nbsp;
+          </label>
+          <label>
+            <input type="radio" name="gender" value="woman" formControlName="gender">
+            Kobieta
+          </label>
+        </div>
+        <div class="login-form">
+          <input type="number" id="numberInput" name="numberInput" class="form-control" placeholder="Wiek" formControlName="age">
+        </div>
+        <div class="login-form">
+          <input type="text" class="form-control" placeholder="Miasto" formControlName="city">
+        </div>
+        </div>
+        <div id="login-button2">
+          <button type="submit" class="btn btn-primary btn-sm" [disabled]="personalDataForm.invalid">Zatwierdź</button>
+        </div>
+      </form>
+  </div>
+
+</div>
+

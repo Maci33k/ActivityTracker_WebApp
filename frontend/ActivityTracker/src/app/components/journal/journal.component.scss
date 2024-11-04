@@ -1,0 +1,115 @@
+.container-for-main-tile
+{
+  background-color:  #f8f9fa;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  border-bottom: 2px solid black;
+  font-family: 'Lobster', cursive;
+  font-weight:lighter;
+  font-size: 400%;
+}
+
+.container-for-tiles
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5vw;
+  align-items: center;
+  text-align: center;
+}
+
+.tile
+{
+  background-color: #111;
+  margin-right: 6.87vw;
+  border-radius: 35px;
+  height: 25vh;
+  width: calc(25% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.tile:hover
+{
+  background-color: blue;
+  cursor: pointer;
+}
+
+.white-icon-tile-with-input
+{
+  margin-top: 10%;
+  color: white;
+  font-size:300%;
+}
+
+.icon-name-tile-with-input
+{
+  color: white;
+  font-size: large;
+  margin-top: 3%;
+}
+
+.form-control
+{
+  margin-top: 3%;
+  width: 30%;
+  text-align: center;
+}
+
+.white-icon-tile-without-input
+{
+  color: white;
+  font-size:300%;
+}
+
+.icon-name-tile-without-input
+{
+  color: white;
+  font-size: large;
+  margin-top: 3%;
+}
+
+.form-control-sleep1
+{
+  margin-top: 3%;
+  width: 50%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.form-control-sleep2
+{
+  margin-top: 3%;
+  width: 50%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container-for-main-tile.drag-over {
+  border-color: #333;
+}
+
+.dropped-icon {
+  margin: 10px;
+  font-size: 100px;
+}
+
+.dialog-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.after
+{
+  font-size: 3vw;
+  font-size: 3vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

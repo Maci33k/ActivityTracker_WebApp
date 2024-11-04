@@ -1,0 +1,51 @@
+.set-activities
+{
+  display: flex;
+  background-color: black;
+  border-radius: 20px;
+  width: 80vw;
+  height: 30%;
+  margin-left: 7vw;
+  margin-top: 2vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.tile
+{
+  background-color: black;
+  margin-right: 6.87vw;
+  border-radius: 35px;
+  height: 25vh;
+  width: calc(25% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.row
+{
+  margin-left: 13vw;
+  margin-top: 5vh;
+}
+
+.white-icon-tile-without-input
+{
+  color: white;
+  font-size:300%;
+}
+
+.icon-name-tile-without-input
+{
+  color: white;
+  font-size: large;
+  margin-top: 3%;
+}
+
+.tile:hover
+{
+  cursor: pointer;
+}

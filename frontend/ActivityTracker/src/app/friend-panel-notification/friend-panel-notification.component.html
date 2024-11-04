@@ -1,0 +1,14 @@
+<h2 mat-dialog-title class="modal-title">{{data.title}}</h2>
+<mat-dialog-content class="modal-content">
+  <div class="modal-image">
+    <img [src]="data.image" alt="User Image">
+  </div>
+  <div class="modal-details">
+    <p class="modal-name">{{data.name}}</p>
+    <p class="modal-username">{{data.username}}</p>
+  </div>
+  <div class="modal-actions">
+    <button mat-button (click)="onAccept()" class="accept-button">Akceptuj</button>
+    <button mat-button (click)="onReject()" class="reject-button">Odrzuć</button>
+  </div>
+</mat-dialog-content>

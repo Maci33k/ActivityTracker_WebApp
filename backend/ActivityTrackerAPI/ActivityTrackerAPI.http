@@ -1,0 +1,6 @@
+@ActivityTrackerAPI_HostAddress = http://localhost:5266
+
+GET {{ActivityTrackerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

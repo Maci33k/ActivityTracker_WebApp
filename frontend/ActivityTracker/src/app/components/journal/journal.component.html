@@ -1,0 +1,28 @@
+<br>
+<div class="col-12 container-for-main-tile" *ngIf="!completed"> Zostało ci jeszcze {{iconsToRender.length}} kafelków do uzupełnienia </div>
+<div class="col-12 container-for-main-tile" *ngIf="completed"> To wszystko </div>
+<br><br>
+<div class="col-12 container-for-tiles" *ngIf="expanded === false && !completed" >
+  <div id="draggable" class="col-3 mb-4 tile" draggable="true" (dragstart)="onDragStart($event, icon, i)" *ngFor="let icon of iconsToRender; let i = index" [@slideIn] [@fadeSlide]="icon.state">
+    <i [class]="icon.class" [ngClass]="{'white-icon-tile-with-input': true}" *ngIf="icon.name != 'Trening' && icon.name != 'Sen'"></i>
+    <span class="icon-name-tile-with-input" *ngIf="icon.name != 'Trening' && icon.name != 'Sen'">{{icon.name}}</span>
+    <input type="text" class="form-control" *ngIf="icon.name != 'Trening' && icon.name != 'Sen'" [ngModel]="getModel(icon.name)" (ngModelChange)="setModel(icon.name, $event)" (keydown.enter)="submit(icon)">
+
+    <i [class]="icon.class" [ngClass]="{'white-icon-tile-without-input': true} " *ngIf="icon.name == 'Trening'" (click)="openDialog()"></i>
+    <span class="icon-name-tile-without-input" *ngIf="icon.name == 'Trening'">{{icon.name}}</span>
+
+    <i [class]="icon.class" [ngClass]="{'white-icon-tile-with-input': true}" *ngIf="icon.name == 'Sen'"></i>
+    <span class="icon-name-tile-with-input" *ngIf="icon.name == 'Sen'">{{icon.name}}</span>
+    <div class="sleep-form" *ngIf="icon.name == 'Sen'">
+      <input type="time" class="form-control-sleep1" [(ngModel)]="sleepTimeRange.startTime" (keydown.enter)="submitTime(icon)">
+      <input type="time" class="form-control-sleep2" [(ngModel)]="sleepTimeRange.endTime" (keydown.enter)="submitTime(icon)">
+    </div>
+  </div>
+</div>
+
+<div class="claim-rewards">
+  <button class="btn btn-primary" (click)="getOverall()" *ngIf="!completed">Zatwierdź i odbierz nagrody</button>
+</div>
+
+<div class="after" *ngIf="completed" style="color: black;">Otrzymałeś dzisiejsze nagrody a twoje wyniki zostały zapisane. Możesz przejrzeć swoje dzienniki i wrócić jutro aby wprowadzić nowe dane z twojej aktywności</div>
+

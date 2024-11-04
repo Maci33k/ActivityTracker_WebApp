@@ -1,0 +1,50 @@
+<div class="container">
+
+  <div class="header">
+    <div class="invitations">
+      <i class="fa-solid fa-envelope" (click)="displayInvitation()"></i>
+    </div>
+    <div class="searching-form">
+      <input type="text" class="form-control" #inputText placeholder="Wyszukaj znajomego">
+    </div>
+  </div>
+
+  <div class="friends" *ngIf="this.friends != null">
+    <div class="friend"@slideInFromLeft *ngFor="let friend of friends">
+      <div class="image">
+        <i class="fa-solid fa-user" *ngIf="!friend.image" style="font-size: 5vw; color: white;"></i>
+        <img [src]="friend.image" style="width: 8vw; height: 14vh; border-radius: 100%;" *ngIf="friend.image">
+      </div>
+      <div class="name">
+        {{friend.name}} {{friend.surname}}
+      </div>
+      <div class="icon">
+        <button type="button" class="btn btn-success" (click)="sendRequest(friend.userID, friend.name, friend.surname)" *ngIf="friend.status == 'none'  ">Dodaj znajomego</button>
+        <button type="button" class="btn btn-secondary disabled" disabled *ngIf="friend.status == 'pending' ">Wysłano zaproszenie</button>
+        <button type="button" class="btn btn-primary disabled" disabled *ngIf="friend.status == 'accepted' ">Znajomi</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="friends" *ngIf="this.activeFriends != null">
+      <div class="title">Znajomi</div>
+    <div class="friend"@slideInFromLeft *ngFor="let friend of activeFriends">
+      <div class="image">
+        <i class="fa-solid fa-user" *ngIf="!friend.image" style="font-size: 5vw; color: white;"></i>
+        <img [src]="friend.image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 100%;" *ngIf="friend.image">
+      </div>
+      <div class="name">
+        {{friend.name}} {{friend.surname}}
+      </div>
+      <div class="icon">
+        <button class="btn btn-danger" (click)="removeFriend(friend.userID)">Usuń znajomego</button>
+        <i class="fa-solid fa-chevron-right" (click)="goToProfile(friend)"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="number-of-notifications">
+    {{numberOfNotifications}}
+  </div>
+
+</div>

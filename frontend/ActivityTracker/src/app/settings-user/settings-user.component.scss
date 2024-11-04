@@ -1,0 +1,99 @@
+.row
+{
+  width: 100vw;
+  height: 70vh;
+  justify-content: center;
+}
+
+.col-3:first-of-type {
+  margin-left: 7vw;
+}
+
+.tile
+{
+  width: 80%;
+  height: 60%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+}
+
+.tile-container
+{
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 50%;
+}
+
+.image
+{
+  height: 100%;
+  width: 100%;
+}
+
+.tile-content
+{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 3vw;
+}
+
+.tile-content-first2
+{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 1.7vw;
+}
+
+.tile-content-second2
+{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 3vw;
+}
+
+.tile:hover
+{
+  cursor: pointer;
+  background-color: black;
+}
+
+.password-button:hover
+{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.after-click
+{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+}
+

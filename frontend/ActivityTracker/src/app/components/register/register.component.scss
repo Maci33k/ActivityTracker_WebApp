@@ -1,0 +1,85 @@
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.invalid {
+  border-color: red;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+
+}
+
+.login-container {
+  background-color: white;
+  width: 30vw;
+  height: 40vh;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+}
+
+#login-text {
+  text-align: center;
+  font-weight:500;
+
+}
+
+#login-button {
+  text-align: center;
+  padding-top: 3%;
+}
+
+#login-button2 {
+  text-align: center;
+  padding-top: 1%;
+}
+
+.login-form {
+  padding-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#form-input {
+  width: 90%;
+}
+
+#app-name {
+  padding-bottom: 1%;
+  font-size: 2em;
+  font-weight: 700;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .login-container {
+    width: 50vw;
+    height: auto;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.70em;
+  display: block;
+  position: absolute;
+  margin-left: 2%;
+
+}
+

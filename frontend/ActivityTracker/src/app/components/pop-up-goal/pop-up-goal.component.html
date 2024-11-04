@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>{{data.message}}</h1>
+<div mat-dialog-content>
+  <form>
+    <mat-form-field>
+      <mat-label>Twój cel</mat-label>
+      <input matInput [(ngModel)]="calories" name="calories" *ngIf="data.message == 'Kalorie'">
+      <input matInput [(ngModel)]="steps" name='steps' *ngIf="data.message == 'Kroki'">
+      <input matInput [(ngModel)]="water" name="water" *ngIf="data.message == 'Woda'">
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Anuluj</button>
+  <button mat-button (click)="onSubmit('steps')" *ngIf="data.message == 'Kroki'">Wyślij</button>
+  <button mat-button (click)="onSubmit('calories')" *ngIf="data.message == 'Kalorie'">Wyślij</button>
+  <button mat-button (click)="onSubmit('water')" *ngIf="data.message == 'Woda'">Wyślij</button>
+</div>

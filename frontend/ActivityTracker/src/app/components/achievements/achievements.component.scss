@@ -1,0 +1,81 @@
+.row
+{
+  display: flex;
+  width: 100%;
+  height: 30%;
+  //border-bottom: 2px solid black;
+  box-shadow: 0 8px 16px -2px rgba(50, 50, 50, 0.5);
+  text-align: center;
+  align-items: center;
+  animation: glowShadow 2s infinite;
+}
+
+.row-name
+{
+  display: flex;
+  width: 15%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 2vw;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 4px 0 10px -2px rgba(0, 0, 0, 0.5);
+  animation: glowShadow 2s infinite;
+}
+
+.achievement
+{
+  display: flex;
+  width: 15%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4vw;
+  filter: grayscale(100%);
+}
+
+.achievement-completed
+{
+  display: flex;
+  width: 15%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4vw;
+}
+
+.achievement:hover
+{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+@keyframes glowShadow {
+  0% {
+    box-shadow: 0 4px 4px -2px rgba(50, 50, 50, 0.5);
+  }
+  50% {
+    box-shadow: 0 6px 12px -3px rgba(200, 200, 200, 0.8);
+  }
+  100% {
+    box-shadow: 0 4px 4px -2px rgba(50, 50, 50, 0.5);
+  }
+}
+
+.tooltip {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10vw;
+  padding: 2vw;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+}

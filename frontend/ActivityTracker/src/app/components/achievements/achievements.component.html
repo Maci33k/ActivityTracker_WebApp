@@ -1,0 +1,107 @@
+<div class="row" @slideInFromLeft>
+  <div class="row-name">
+    Poziomy
+  </div>
+  <div class="achievement" id="5" (mouseenter)="showTooltip($event, '5')" (mouseleave)="startHideTooltipTimeout('5')"  *ngIf="!achievementData.achievement1">
+    <img src="assets/5v2.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement-completed" id="5" (mouseenter)="showTooltip($event, '5')" (mouseleave)="startHideTooltipTimeout('5')" *ngIf="achievementData.achievement1">
+    <img src="assets/5v2.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement" id="10" (mouseenter)="showTooltip($event, '10')" (mouseleave)="startHideTooltipTimeout('10')" *ngIf="!achievementData.achievement2">
+    <img src="assets/10.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement-completed" id="10" (mouseenter)="showTooltip($event, '10')" (mouseleave)="startHideTooltipTimeout('10')" *ngIf="achievementData.achievement2">
+    <img src="assets/10.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement" id="15" (mouseenter)="showTooltip($event, '15')" (mouseleave)="startHideTooltipTimeout('15')" *ngIf="!achievementData.achievement3">
+    <img src="assets/15.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement-completed" id="15" (mouseenter)="showTooltip($event, '15')" (mouseleave)="hideTooltip('15')" *ngIf="achievementData.achievement3">
+    <img src="assets/15.png" style="height: 80%; width: 100%;">
+  </div>
+</div>
+
+<div class="row" @slideInFromLeft>
+  <div class="row-name">
+    Aktywność
+  </div>
+  <div class="achievement" id="steps" (mouseenter)="showTooltip($event, 'steps')" (mouseleave)="startHideTooltipTimeout('steps')"  *ngIf="!achievementData.achievement4">
+    <img src="assets/steps.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement-completed" id="steps" (mouseenter)="showTooltip($event, 'steps')" (mouseleave)="startHideTooltipTimeout('steps')"  *ngIf="achievementData.achievement4">
+    <img src="assets/steps.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement" id="week" (mouseenter)="showTooltip($event, 'week')" (mouseleave)="startHideTooltipTimeout('week')"  *ngIf="!achievementData.achievement5">
+    <img src="assets/week.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement-completed" id="week" (mouseenter)="showTooltip($event, 'week')" (mouseleave)="startHideTooltipTimeout('week')"  *ngIf="achievementData.achievement5">
+    <img src="assets/week.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement" id="perfect" (mouseenter)="showTooltip($event, 'perfect')" (mouseleave)="startHideTooltipTimeout('perfect')"  *ngIf="!achievementData.achievement6">
+    <img src="assets/perfect.png" style="height: 80%; width: 100%;">
+  </div>
+  <div class="achievement-completed" id="perfect" (mouseenter)="showTooltip($event, 'perfect')" (mouseleave)="startHideTooltipTimeout('perfect')"  *ngIf="achievementData.achievement6">
+    <img src="assets/perfect.png" style="height: 80%; width: 100%;">
+  </div>
+</div>
+
+<div class="row" @slideInFromLeft>
+  <div class="row-name">
+    Inne
+  </div>
+  Wkrótce
+</div>
+
+
+
+
+<div class="tooltip" *ngIf="isTooltipVisible1 && !achievementData.achievement1" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}"  (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('5')">
+  Odblokuj to osiągnięcie osiągając 5 poziom konta
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible1 && achievementData.achievement1" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}"  (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('5')">
+  Odblokowałeś to osiągnięcie. Możesz przypiąć je do swojego profilu aby pochwalić się znajomym!
+  <button type="submit" (click)="pinAchievement('levelAchievement1')" *ngIf="achievementData.pinnedAchievement1 != 'levelAchievement1' && achievementData.pinnedAchievement2 != 'levelAchievement1' && achievementData.pinnedAchievement3 != 'levelAchievement1'">Przypnij</button>
+  <button disabled *ngIf="achievementData.pinnedAchievement1 == 'levelAchievement1' || achievementData.pinnedAchievement2 == 'levelAchievement1' || achievementData.pinnedAchievement3 == 'levelAchievement1'">Przypięto</button>
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible2 && !achievementData.achievement2" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('10')">
+  Odblokuj to osiągnięcie osiągając 10 poziom konta
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible2 && achievementData.achievement2" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}"  (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('10')">
+  Odblokowałeś to osiągnięcie. Możesz przypiąć je do swojego profilu aby pochwalić się znajomym!
+  <button type="submit" (click)="pinAchievement('levelAchievement2')" *ngIf="achievementData.pinnedAchievement1 != 'levelAchievement2' && achievementData.pinnedAchievement2 != 'levelAchievement2' && achievementData.pinnedAchievement3 != 'levelAchievement2'">Przypnij</button>
+  <button disabled *ngIf="achievementData.pinnedAchievement1 == 'levelAchievement2' || achievementData.pinnedAchievement2 == 'levelAchievement2' || achievementData.pinnedAchievement3 == 'levelAchievement2'">Przypięto</button>
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible3 && !achievementData.achievement3" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('15')">
+  Odblokuj to osiągnięcie osiągając 15 poziom konta
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible3 && achievementData.achievement3" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('15')">
+  Odblokowałeś to osiągnięcie. Możesz przypiąć je do swojego profilu aby pochwalić się znajomym!
+  <button type="submit" (click)="pinAchievement('levelAchievement3')" *ngIf="achievementData.pinnedAchievement1 != 'levelAchievement3' && achievementData.pinnedAchievement2 != 'levelAchievement3' && achievementData.pinnedAchievement3 != 'levelAchievement3'">Przypnij</button>
+  <button disabled *ngIf="achievementData.pinnedAchievement1 == 'levelAchievement3' || achievementData.pinnedAchievement2 == 'levelAchievement3' || achievementData.pinnedAchievement3 == 'levelAchievement3'">Przypięto</button>
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible4 && !achievementData.achievement4" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('steps')">
+  Odblokuj to osiągnięcie wykonując w jednym tygodniu łącznie 100 tysięcy kroków
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible4 && achievementData.achievement4" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('steps')">
+  Odblokowałeś to osiągnięcie. Możesz przypiąć je do swojego profilu aby pochwalić się znajomym!
+  <button type="submit" (click)="pinAchievement('activityAchievement1')" *ngIf="achievementData.pinnedAchievement1 != 'activityAchievement1' && achievementData.pinnedAchievement2 != 'activityAchievement1' && achievementData.pinnedAchievement3 != 'activityAchievement1'">Przypnij</button>
+  <button disabled *ngIf="achievementData.pinnedAchievement1 == 'activityAchievement1' || achievementData.pinnedAchievement2 == 'activityAchievement1' || achievementData.pinnedAchievement3 == 'activityAchievement1'">Przypięto</button>
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible5 && !achievementData.achievement5" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('week')">
+  Odblokuj to osiągnięcie rejestrując wszystkie śledzone aktywności przez 7 dni z rzędu
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible5 && achievementData.achievement5" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('week')">
+  Odblokowałeś to osiągnięcie. Możesz przypiąć je do swojego profilu aby pochwalić się znajomym!
+  <button type="submit" (click)="pinAchievement('activityAchievement2')" *ngIf="achievementData.pinnedAchievement1 != 'activityAchievement2' && achievementData.pinnedAchievement2 != 'activityAchievement2' && achievementData.pinnedAchievement3 != 'activityAchievement2'">Przypnij</button>
+  <button disabled *ngIf="achievementData.pinnedAchievement1 == 'activityAchievement2' || achievementData.pinnedAchievement2 == 'activityAchievement2' || achievementData.pinnedAchievement3 == 'activityAchievement2'">Przypięto</button>
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible6 && !achievementData.achievement6" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('perfect')">
+  Odblokuj to osiągnięcie osiągając maksymalne wyniki ze wszystkich aktywności w jednym dniu
+</div>
+<div class="tooltip" *ngIf="isTooltipVisible6 && achievementData.achievement6" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}" (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('perfect')">
+  Odblokowałeś to osiągnięcie. Możesz przypiąć je do swojego profilu aby pochwalić się znajomym!
+  <button type="submit" (click)="pinAchievement('activityAchievement3')" *ngIf="achievementData.pinnedAchievement1 != 'activityAchievement3' && achievementData.pinnedAchievement2 != 'activityAchievement3' && achievementData.pinnedAchievement3 != 'activityAchievement3'">Przypnij</button>
+  <button disabled *ngIf="achievementData.pinnedAchievement1 == 'activityAchievement3' || achievementData.pinnedAchievement2 == 'activityAchievement3' || achievementData.pinnedAchievement3 == 'activityAchievement3'">Przypięto</button>
+</div>
+

@@ -1,0 +1,121 @@
+
+<div class="top-container" @slideIn>
+  <div class="image-and-name">
+  <div class="image">
+    <img [src]="friend.image" style="width: 100%; height: 100%; border-radius: 100%;" *ngIf="friend.image">
+  </div>
+  <div class="name-container">
+    {{friend.name}} {{friend.surname}} <br>
+  </div>
+</div>
+  <div class="last-results">
+    <div class="level">
+     {{friend.level}} <app-progress-bar [experience]="friend.experience" [maxExperience]="friend.nextLevelExperience" style="width: 50%;"></app-progress-bar>
+    </div>
+    <div class="result-title">
+      Ostatnie wyniki: {{ getFormattedDate(friend.activityDate) }}
+    </div>
+    <div class="result">
+      Kroki: {{friend.lastSteps}}
+    </div>
+    <div class="result">
+      Kalorie: {{friend.lastCalories}} kcal
+    </div>
+    <div class="result">
+      Woda: {{friend.lastWater}} l
+    </div>
+    <div class="result">
+      Czas snu: {{hours}}h {{remainingMinutes}}min
+    </div>
+    <div class="result">
+      Trening: &nbsp;<div *ngIf="friend.lastTrainingType != 0">{{friend.lastTrainingType}}</div>&nbsp;{{friend.lastTrainingTime}}min {{friend.lastTrainingHeartRate}}bpm
+    </div>
+  </div>
+</div>
+
+<div class="bottom-container" @slideIn>
+  <div class="general-data">
+    <div class="title">
+      Wyniki z ostatniego tygodnia (średnio)
+    </div>
+    <div class="result">
+      Kroki: {{friend.weeklyAverageSteps}}
+    </div>
+    <div class="result">
+      Kalorie: {{friend.weeklyAverageCalories}} kcal
+    </div>
+    <div class="result">
+      Woda: {{friend.weeklyAverageWater}} l
+    </div>
+    <div class="result">
+      Czas snu: {{averageHours}}h {{averageMinutes}}min
+    </div>
+    <div class="result">
+      Trening: {{friend.weeklyAverageTrainingTime}}min {{friend.weeklyAverageHeartRate}}bpm
+    </div>
+  </div>
+</div>
+
+
+<div class="achievement" style="top: 70%; left: 45%;">
+  <img src="assets/5.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement1 == 'levelAchievement1'" (mouseenter)="showTooltip(1)" (mouseleave)="hideTooltip()">
+  <img src="assets/10.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement1 == 'levelAchievement2'" (mouseenter)="showTooltip(2)" (mouseleave)="hideTooltip()">
+  <img src="assets/15.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement1 == 'levelAchievement3'" (mouseenter)="showTooltip(3)" (mouseleave)="hideTooltip()">
+  <img src="assets/steps.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement1 == 'activityAchievement1'" (mouseenter)="showTooltip(4)" (mouseleave)="hideTooltip()">
+  <img src="assets/week.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement1 == 'activityAchievement2'" (mouseenter)="showTooltip(5)" (mouseleave)="hideTooltip()">
+  <img src="assets/perfect.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement1 == 'activityAchievement3'" (mouseenter)="showTooltip(6)" (mouseleave)="hideTooltip()">
+</div>
+<div class="achievement" style="top: 70%; left: 60%;">
+  <img src="assets/5.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement2 == 'levelAchievement1'" (mouseenter)="showTooltip(1)" (mouseleave)="hideTooltip()">
+  <img src="assets/10.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement2 == 'levelAchievement2'" (mouseenter)="showTooltip(2)" (mouseleave)="hideTooltip()">
+  <img src="assets/15.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement2 == 'levelAchievement3'" (mouseenter)="showTooltip(3)" (mouseleave)="hideTooltip()">
+  <img src="assets/steps.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement2 == 'activityAchievement1'" (mouseenter)="showTooltip(4)" (mouseleave)="hideTooltip()">
+  <img src="assets/week.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement2 == 'activityAchievement2'" (mouseenter)="showTooltip(5)" (mouseleave)="hideTooltip()">
+  <img src="assets/perfect.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement2 == 'activityAchievement3'" (mouseenter)="showTooltip(6)" (mouseleave)="hideTooltip()">
+</div>
+<div class="achievement" style="top: 70%; left: 75%;">
+  <img src="assets/5.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement3 == 'levelAchievement1'" (mouseenter)="showTooltip(1)" (mouseleave)="hideTooltip()">
+  <img src="assets/10.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement3 == 'levelAchievement2'" (mouseenter)="showTooltip(2)" (mouseleave)="hideTooltip()">
+  <img src="assets/15.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement3 == 'levelAchievement3'" (mouseenter)="showTooltip(3)" (mouseleave)="hideTooltip()">
+  <img src="assets/steps.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement3 == 'activityAchievement1'" (mouseenter)="showTooltip(4)" (mouseleave)="hideTooltip()">
+  <img src="assets/week.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement3 == 'activityAchievement2'" (mouseenter)="showTooltip(5)" (mouseleave)="hideTooltip()">
+  <img src="assets/perfect.png" style="height: 100%; width: 100%;" *ngIf="friend.achievement3 == 'activityAchievement3'" (mouseenter)="showTooltip(6)" (mouseleave)="hideTooltip()">
+</div>
+
+
+  <div class="tooltip-container">
+  <div class="tooltip" *ngIf="tooltipVisible1">
+    Osiągnięcie zostało zdobyta za osiągnięcie piątego poziomu konta
+  </div>
+</div>
+
+<div class="tooltip-container">
+  <div class="tooltip" *ngIf="tooltipVisible2">
+    Osiągnięcie zostało zdobyte za osiągnięcie dziesiątego poziomu konta
+  </div>
+</div>
+
+<div class="tooltip-container">
+  <div class="tooltip" *ngIf="tooltipVisible3">
+    Osiągnięcie zostało zdobyte za osiągnięcie piętnastego poziomu konta
+  </div>
+</div>
+
+<div class="tooltip-container">
+  <div class="tooltip" *ngIf="tooltipVisible4">
+    Osiągnięcie zostało zdobyte za wykonanie łącznie 100 tysięcy kroków w ciągu jednego tygodnia
+  </div>
+</div>
+
+<div class="tooltip-container">
+  <div class="tooltip" *ngIf="tooltipVisible5">
+    Osiągnięcie zostało zdobyte za rejestrowanie wszystkich śledzonych aktywności przez 7 dni z rzędu
+  </div>
+</div>
+
+<div class="tooltip-container">
+  <div class="tooltip" *ngIf="tooltipVisible6">
+    Osiągnięcie zostało zdobyte za uzyskanie maksymalnych wyników ze wszystkich śledzonych aktywności w jednym dniu
+  </div>
+</div>
+

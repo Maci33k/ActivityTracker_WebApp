@@ -1,0 +1,158 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.icon-small {
+  color: white;
+  font-size: 2em;
+  transition: font-size 0.5s ease;
+}
+
+.icon-small:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.icon-big {
+  color: white;
+  font-size: 4.5em;
+  transition: font-size 0.5s ease;
+}
+
+.icon-big:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.icon-big:hover + .option-name {
+  opacity: 0;
+  transition: opacity 0s;
+}
+
+.option {
+  width: auto;
+  height: 10%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15%;
+}
+
+.option-name {
+  color: white;
+  transition: opacity 0.5s ease;
+  font-size: 1em;
+}
+
+.empty-space {
+  widht: auto;
+  height: 10%;
+}
+
+.expanded-option {
+  height: 5em;
+  padding: 10%;
+}
+
+.two-last-options-container {
+  display: flex;
+  flex-direction: row;
+  direction: rtl;
+}
+
+.side-bar-button {
+  align-items: center;
+  height: 100vh;
+  width: 5vw;
+  float:left;
+  display: flex;
+}
+
+#navbar-button {
+  text-align: center;
+  margin-top: -30%;
+  margin-bottom: 18%;
+}
+
+#open-button:hover {
+  cursor: pointer;
+}
+
+#close-button:hover {
+  cursor: pointer;
+}
+
+

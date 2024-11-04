@@ -1,0 +1,88 @@
+<div id="mySidebar" class="sidebar" [ngStyle]="{'width': sidebarOpen ? '15%' : '7%'}">
+  <div id="navbar-button" *ngIf="!sidebarOpen">
+  <i class="fa-solid fa-chevron-right" id="open-button" style="color: #74C0FC;" (click)="openNav()"></i>
+  </div>
+  <div id="navbar-button" *ngIf="sidebarOpen">
+    <i class="fa-solid fa-chevron-left" id="close-button" style="color: #74C0FC;" (click)="closeNav()"></i>
+    </div>
+
+  <ng-container *ngFor="let icon of icons; let i = index">
+    <div *ngIf="(i!== 4 && !sidebarOpen) && navBarLocation == 0 || (i < 4 && sidebarOpen) && navBarLocation == 0" class="option">
+        <i [class]="icon.class" [ngClass]="{'icon-big': sidebarOpen, 'icon-small': !sidebarOpen}" (click)="navigate(icon.name)"></i>
+        <div class="option-name" *ngIf="sidebarOpen">{{icon.name}}</div>
+    </div>
+    <div class="empty-space" *ngIf="i===4 && navBarLocation == 0">
+
+    </div>
+    <div class="empty-space" *ngIf="i === 4 && navBarLocation == 0"></div>
+    <div *ngIf="i === 4 && navBarLocation == 0" style="width: auto; height: 3%"></div>
+</ng-container>
+
+<ng-container *ngFor="let icon of iconsJournal; let i = index">
+  <div class="option" *ngIf="navBarLocation == 1 && i < 2">
+    <i [class]="icon.class" [ngClass]="{'icon-big': sidebarOpen, 'icon-small': !sidebarOpen}" (click)="navigate(icon.name)"></i>
+    <div class="option-name" *ngIf="sidebarOpen">{{icon.name}}</div>
+  </div>
+</ng-container>
+<div class="empty-space" *ngIf="navBarLocation == 1"></div>
+<div class="empty-space" *ngIf="navBarLocation == 1"></div>
+<div class="empty-space" *ngIf="navBarLocation == 1"></div>
+<div class="empty-space" *ngIf="navBarLocation == 1"></div>
+<div class="empty-space" *ngIf="navBarLocation == 1"></div>
+<div class="empty-space" *ngIf="navBarLocation == 1"></div>
+<div class="option" *ngIf="navBarLocation == 1">
+  <i [class]="iconsJournal[2].class" [ngClass]="{'icon-big': sidebarOpen, 'icon-small': !sidebarOpen}" (click)="changeNavBarLocation(iconsJournal[2].name)"></i>
+ <div class="option-name" *ngIf="sidebarOpen">{{iconsJournal[2].name}}</div>
+</div>
+
+<ng-container *ngFor="let icon of iconsSettings; let i = index">
+  <div class="option" *ngIf="navBarLocation == 2 && i < 3">
+    <i [class]="icon.class" [ngClass]="{'icon-big': sidebarOpen, 'icon-small': !sidebarOpen}" (click)="navigate(icon.name)"></i>
+    <div class="option-name" *ngIf="sidebarOpen">{{icon.name}}</div>
+  </div>
+</ng-container>
+<div class="empty-space" *ngIf="navBarLocation == 2"></div>
+<div class="empty-space" *ngIf="navBarLocation == 2"></div>
+<div class="empty-space" *ngIf="navBarLocation == 2"></div>
+<div class="empty-space" *ngIf="navBarLocation == 2"></div>
+<div class="empty-space" *ngIf="navBarLocation == 2"></div>
+<div class="option" *ngIf="navBarLocation == 2" style="margin-top: -15%;">
+  <i [class]="iconsJournal[2].class" [ngClass]="{'icon-big': sidebarOpen, 'icon-small': !sidebarOpen}" (click)="changeNavBarLocation(iconsJournal[2].name)"></i>
+ <div class="option-name" *ngIf="sidebarOpen">{{iconsJournal[2].name}}</div>
+</div>
+
+<ng-container *ngFor="let icon of iconsMainPage; let i = index">
+  <div class="option" *ngIf="navBarLocation == 3 && i < 3">
+    <i [class]="icon.class" [ngClass]="{'icon-big': sidebarOpen, 'icon-small': !sidebarOpen}" (click)="navigate(icon.name)"></i>
+    <div class="option-name" *ngIf="sidebarOpen">{{icon.name}}</div>
+  </div>
+</ng-container>
+<div class="empty-space" *ngIf="navBarLocation == 3"></div>
+<div class="empty-space" *ngIf="navBarLocation == 3"></div>
+<div class="empty-space" *ngIf="navBarLocation == 3"></div>
+<div class="empty-space" *ngIf="navBarLocation == 3"></div>
+<div class="empty-space" *ngIf="navBarLocation == 3"></div>
+<div class="empty-space" *ngIf="navBarLocation == 3"></div>
+<div class="option" *ngIf="navBarLocation == 3" style="margin-top: -15%;">
+  <i [class]="iconsJournal[2].class" [ngClass]="{'icon-big': sidebarOpen, 'icon-small': !sidebarOpen}" (click)="changeNavBarLocation(iconsJournal[2].name)"></i>
+ <div class="option-name" *ngIf="sidebarOpen">{{iconsJournal[2].name}}</div>
+</div>
+
+
+<div class="two-last-options-container" *ngIf="sidebarOpen && navBarLocation == 0">
+  <div class="option">
+   <i [class]="icons[5].class" [ngClass]="{'icon-big': sidebarOpen}" (click)="navigate(icons[5].name)"></i>
+   <div class="option-name">{{icons[5].name}}</div>
+  </div>
+  <div class="option">
+    <i [class]="icons[6].class" [ngClass]="{'icon-big': sidebarOpen}" (click)="navigate(icons[6].name)"></i>
+    <div class="option-name">{{icons[6].name}}</div>
+   </div>
+</div>
+
+</div>
+
+<div id="main" [ngStyle]="{'marginLeft': sidebarOpen ? '14%' : '7%'}">
+  <app-main-page></app-main-page>
+</div>
+

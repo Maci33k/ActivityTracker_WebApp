@@ -1,0 +1,26 @@
+<h2>Dodaj Trening</h2>
+
+<form [formGroup]="trainingForm" (ngSubmit)="onSubmit()" class="centered-form">
+  <mat-form-field appearance="fill">
+    <mat-label>Rodzaj Treningu</mat-label>
+    <mat-select formControlName="trainingType">
+      <mat-option value="cardio">Kardio</mat-option>
+      <mat-option value="strength">Siłowy</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Czas Treningu (min)</mat-label>
+    <input matInput formControlName="duration" type="number">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Średnie Tętno (bpm)</mat-label>
+    <input matInput formControlName="heartRate" type="number">
+  </mat-form-field>
+
+  <div class="dialog-buttons">
+    <button mat-button (click)="onClose()">Anuluj</button>
+    <button mat-button color="primary" type="submit">Zatwierdź</button>
+  </div>
+</form>

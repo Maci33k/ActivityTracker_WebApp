@@ -1,0 +1,17 @@
+<div class="container" [@slideIn]>
+<br>
+<div class="welcome">
+  Dzień Dobry {{userData.name}}!
+  <div class="content" *ngIf="tileClicked == true">
+
+  </div>
+</div>
+<div class="date">
+  {{formattedDate}} {{currentTime}}
+  <br>
+</div> <br>
+
+
+<router-outlet></router-outlet>
+
+</div>

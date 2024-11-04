@@ -1,0 +1,65 @@
+<div class="col-12 container-for-tiles" [@slideInFromLeft] *ngIf="!tileClicked">
+  <div id="draggable" class="col-3 mb-4 tile" draggable="true" *ngFor="let notification of notifications" [@slideIn] [@fadeSlide]="notification.state" (click)="onTileClick(notification)">
+    <ng-container *ngFor="let icon of iconService.icons">
+      <ng-container *ngIf="notification.activityType === iconService.getIconName(icon.class)">
+        <i [class]="icon.class" [ngClass]="{'white-icon-tile-without-input': true}"></i>
+        <span class="icon-name-tile-without-input">{{ icon.name }}</span>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>
+
+<div *ngIf="tileClicked" [@expandFromClick] class="expanded-tile" (click)="toggleExpand()">
+  <div class="content">
+    <div class="title">
+      {{ selectedNotification?.notificationTitle }}
+    </div>
+    <div class="advice">
+      {{ selectedNotification?.advice }}
+    </div>
+    <div class="data-tile" *ngIf="selectedNotification.activityType == 'steps'">
+      Twoje Kroki
+      <div class="number">{{activityData.steps}}</div>
+    </div>
+    <div class="data-tile2" *ngIf="selectedNotification.activityType == 'steps'">
+      Wynik <div class="number">{{scoreData.stepsScore}}</div>
+    </div>
+    <div class="data-tile3" *ngIf="selectedNotification.activityType == 'steps'">
+      Spróbuj wykonać <div class="number">{{scoreData.nextSteps}}</div>
+    </div>
+
+    <div class="data-tile" *ngIf="selectedNotification.activityType == 'calories'">
+      Spalone Kalorie
+      <div class="number">{{activityData.callories}}</div>
+    </div>
+    <div class="data-tile2" *ngIf="selectedNotification.activityType == 'calories'">
+      Wynik <div class="number">{{scoreData.caloriesScore}}</div>
+    </div>
+    <div class="data-tile3" *ngIf="selectedNotification.activityType == 'calories'">
+      Spróbuj spalić <div class="number">{{scoreData.nextCalories}}</div>
+    </div>
+
+    <div class="data-tile" *ngIf="selectedNotification.activityType == 'sleep'">
+      Czas snu
+      <div class="number">{{hours}}h {{remainingMinutes}}min</div>
+    </div>
+    <div class="data-tile2" *ngIf="selectedNotification.activityType == 'sleep'">
+      Wynik <div class="number">{{scoreData.sleepScore}}</div>
+    </div>
+    <div class="data-tile3" *ngIf="selectedNotification.activityType == 'sleep'">
+      Postaraj się spać <div class="number">{{nextHours}}h {{nextMinutes}}min</div>
+    </div>
+
+    <div class="data-tile" *ngIf="selectedNotification.activityType == 'water'">
+      Wypita woda
+      <div class="number">{{activityData.water}}</div>
+    </div>
+    <div class="data-tile2" *ngIf="selectedNotification.activityType == 'water'">
+      Wynik <div class="number">{{scoreData.waterScore}}</div>
+    </div>
+    <div class="data-tile3" *ngIf="selectedNotification.activityType == 'water'">
+      Pij w ciągu dnia <div class="number">{{scoreData.nextWater}}</div>
+    </div>
+
+  </div>
+</div>

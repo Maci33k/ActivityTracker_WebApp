@@ -1,0 +1,158 @@
+<div class="buttons" @slideIn>
+  <div class="button">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="yearDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="width: 8vw;">
+        {{ selectedYear }}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="yearDropdown">
+        <a class="dropdown-item" (click)="setDefault('year')">-</a>
+        <li *ngFor="let year of years">
+          <a class="dropdown-item" (click)="selectYear(year)">{{ year }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="button">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="monthDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="width: 8vw;">
+        {{ selectedMonth }}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="monthDropdown">
+        <a class="dropdown-item" (click)="setDefault('month')">-</a>
+        <li *ngFor="let month of months">
+          <a class="dropdown-item" (click)="selectMonth(month)">{{ month }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="button">
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="dayDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="width: 8vw;">
+        {{ selectedDay }}
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dayDropdown">
+        <a class="dropdown-item" (click)="setDefault('day')">-</a>
+        <li *ngFor="let day of days">
+          <a class="dropdown-item" (click)="selectDay(day)">{{ day }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="data-container" @slideIn>
+<div class="score-average-container">
+
+  <div class="score">
+    Wynik: {{summary?.averageScore}}
+  </div>
+  <div class="average">
+    <div class="row-average" style="border-bottom: 2px solid black;">
+      <div class="activity">Nazwa</div>
+      <div class="value">Ilość</div>
+      <div class="result">Wynik</div>
+    </div>
+
+    <div class="row-average">
+      <div class="activity">Kroki</div>
+      <div class="value" *ngIf="summary?.totalSteps != null">{{summary?.totalSteps}}</div>
+      <div class="value" *ngIf="summary?.totalSteps == null">0</div>
+      <div class="result" *ngIf="summary?.totalSteps != null">{{summary?.stepsScore}}</div>
+      <div class="result" *ngIf="summary?.stepsScore == null">0</div>
+    </div>
+
+    <div class="row-average">
+      <div class="activity">Kalorie</div>
+      <div class="value" *ngIf="summary?.totalCalories != null">{{summary?.totalCalories}}</div>
+      <div class="value" *ngIf="summary?.totalCalories == null">0</div>
+      <div class="result" *ngIf="summary?.totalCalories != null">{{summary?.caloriesScore}}</div>
+      <div class="result" *ngIf="summary?.totalCalories == null">0</div>
+    </div>
+
+    <div class="row-average">
+      <div class="activity">Woda</div>
+      <div class="value" *ngIf="summary?.totalWater != null">{{summary?.totalWater}}</div>
+      <div class="value" *ngIf="summary?.totalWater == null">0</div>
+      <div class="result" *ngIf="summary?.totalWater != null">{{summary?.waterScore}}</div>
+      <div class="result" *ngIf="summary?.totalWater == null">0</div>
+    </div>
+
+    <div class="row-average">
+      <div class="activity">Trening Kardio</div>
+      <div class="value" *ngIf="summary?.totalCardioTime != null">{{summary?.totalCardioTime}}min</div>
+      <div class="value" *ngIf="summary?.totalCardioTime == null">0 min</div>
+      <div class="result" *ngIf="summary?.totalCardioTime != null">{{summary?.cardioScore}}</div>
+      <div class="result" *ngIf="summary?.totalCardioTime == null">0</div>
+    </div>
+
+    <div class="row-average">
+      <div class="activity">Trening siłowy</div>
+      <div class="value" *ngIf="summary?.totalStrengthTime != null">{{summary?.totalStrengthTime}}min</div>
+      <div class="value" *ngIf="summary?.totalStrengthTime == null">0 min</div>
+      <div class="result" *ngIf="summary?.totalStrengthScore != null">{{summary?.strengthScore}}</div>
+      <div class="result" *ngIf="summary?.totalStrengthScore == null">0</div>
+    </div>
+
+  </div>
+
+
+</div>
+
+<div class="total">
+  <div class="row-average" style="border-bottom: 2px solid black; font-size: 3vh;">
+    <div class="activity">Nazwa</div>
+    <div class="value">Ilość średnia</div>
+    <div class="result">Ilość największa</div>
+  </div>
+
+  <div class="row-average" style="margin-top: 3vh; font-size: 3vh;">
+    <div class="activity">Kroki</div>
+    <div class="value" *ngIf="summary?.averageSteps != null">{{summary?.averageSteps}}</div>
+    <div class="value" *ngIf="summary?.averageSteps == null">0</div>
+    <div class="result" *ngIf="summary?.maxSteps != null">{{summary?.maxSteps}}</div>
+    <div class="result" *ngIf="summary?.maxSteps == null">0</div>
+  </div>
+
+  <div class="row-average" style="margin-top: 3vh; font-size: 3vh;">
+    <div class="activity">Kalorie</div>
+    <div class="value" *ngIf="summary?.averageCalories != null">{{summary?.averageCalories}}</div>
+    <div class="value" *ngIf="summary?.averageCalories == null">0</div>
+    <div class="result" *ngIf="summary?.maxCalories != null">{{summary?.maxCalories}}</div>
+    <div class="result" *ngIf="summary?.maxCalories == null">0</div>
+  </div>
+
+  <div class="row-average" style="margin-top: 3vh; font-size: 3vh;">
+    <div class="activity">Woda</div>
+    <div class="value" *ngIf="summary?.averageWater != null">{{summary?.averageWater}}</div>
+    <div class="value" *ngIf="summary?.averageWater == null">0</div>
+    <div class="result" *ngIf="summary?.maxWater != null">{{summary?.maxWater}}</div>
+    <div class="result" *ngIf="summary?.maxWater == null">0</div>
+  </div>
+
+  <div class="row-average" style="margin-top: 3vh; font-size: 3vh;">
+    <div class="activity">Sen</div>
+    <div class="value" *ngIf="summary?.averageSleep != null">{{summary?.averageSleep}}</div>
+    <div class="value" *ngIf="summary?.averageSleep == null">0</div>
+    <div class="result" *ngIf="summary?.maxSleep != null">{{summary?.maxSleep}}</div>
+    <div class="result" *ngIf="summary?.maxSleep == null">0</div>
+  </div>
+
+  <div class="row-average" style="margin-top: 3vh; font-size: 3vh;">
+    <div class="activity">Trening Kardio</div>
+    <div class="value" *ngIf="summary?.averageCardioTime != null">{{summary?.averageCardioTime}}</div>
+    <div class="value" *ngIf="summary?.averageCardioTime == null">0</div>
+    <div class="result" *ngIf="summary?.maxCardioTime != null">{{summary?.maxCardioTime}}</div>
+    <div class="result" *ngIf="summary?.maxCardioTime == null">0</div>
+  </div>
+
+  <div class="row-average" style="margin-top: 3vh; font-size: 3vh;">
+    <div class="activity">Trening siłowy</div>
+    <div class="value" *ngIf="summary?.averageStrengthTime != null">{{summary?.averageStrengthTime}}min {{summary?.averageStrengthHeartRate}}</div>
+    <div class="value" *ngIf="summary?.averageStrengthTime == null">0</div>
+    <div class="result" *ngIf="summary?.maxStrengthTime != null">{{summary?.maxStrengthTime}}</div>
+    <div class="result" *ngIf="summary?.maxStrengthTime == null">0</div>
+  </div>
+</div>
+</div>

@@ -1,0 +1,32 @@
+<video #videoBackground autoplay muted loop class="video-background">
+  <source src="assets/3125907-uhd_3840_2160_25fps.mp4" type="video/mp4">
+  Twoja przeglądarka nie wspiera tagu wideo.
+</video>
+
+
+<div class="container">
+    <div id="app-name">Activity Tracker</div>
+    <div class="login-container">
+      <form>
+        <div class="form-group">
+          <div id="login-text">Logowanie</div>
+          <div class="login-form">
+            <input type="email" class="form-control" id="form-input" aria-describedby="emailHelp"
+              placeholder="Adres e-mail" [(ngModel)]="email" id="email" name="email">
+            <small id="emailHelp" class="form-text text-muted"></small>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="login-form">
+            <input type="password" class="form-control" id="form-input" placeholder="Hasło" [(ngModel)]="password" id="password" name="password">
+          </div>
+        </div>
+        <div id="login-button">
+          <button type="submit" class="btn btn-primary" (click)="LogIn()">Zaloguj się</button>
+        </div>
+      </form>
+      <div id="register-button-container">
+      <a href="/register" class="register-button">Stwórz konto</a>
+      </div>
+    </div>
+  </div>

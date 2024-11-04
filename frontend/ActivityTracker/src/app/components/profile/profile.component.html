@@ -1,0 +1,74 @@
+<br>
+<div class="top-container" [@slideIn]>
+  <div class="image" (click)="fileInput.click()">
+    <img *ngIf="userPhoto" [src]="userPhoto" alt="User Photo" style="width: 100%; height: 100%; object-fit: cover; border-radius: 100%;">
+    <i class="fa-solid fa-user" *ngIf="!userPhoto"></i>
+    <input type="file" #fileInput (change)="onFileSelected($event)" style="display: none;" accept="image/*">
+  </div>
+  <div class="info">
+    <div class="name">
+      {{name}} &nbsp; {{surname}}
+    </div>
+    <div class="location">
+      {{city}}
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="email" [@slideIn]>
+  <i class="fa-regular fa-envelope"></i>
+  &nbsp;&nbsp;&nbsp;{{this.userData.email}}
+</div>
+<br>
+<div class="email" [@slideIn]>
+  <i class="fa-solid fa-user-secret"></i>
+  &nbsp;&nbsp;&nbsp;{{username}}
+</div>
+
+<br>
+
+<div class="lvl-container">
+  <div class="current-lvl">
+    {{lvlData.currentLevel}}
+  </div>
+  <div class="progress-bar">
+    <app-progress-bar [experience]="this.experience" [maxExperience]="lvlData.nextLevelExperience"></app-progress-bar>
+  </div>
+  <div class="next-lvl">
+    {{lvlData.nextLevel}}
+  </div>
+</div>
+
+<br>
+
+<div class="current-lvl-info">
+  POZIOM {{lvlData.currentLevel}}
+</div>
+
+
+<div class="achievement" style="top: 45%; left: 50%;" (click)="removeAchievement(1)">
+  <img src="assets/5.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement1 == 'levelAchievement1'">
+  <img src="assets/10.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement1 == 'levelAchievement2'">
+  <img src="assets/15.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement1 == 'levelAchievement3'">
+  <img src="assets/steps.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement1 == 'activityAchievement1'">
+  <img src="assets/week.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement1 == 'activityAchievement2'">
+  <img src="assets/perfect.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement1 == 'activityAchievement3'">
+</div>
+<div class="achievement" style="top: 45%; left: 65%;" (click)="removeAchievement(2)">
+  <img src="assets/5.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement2 == 'levelAchievement1'">
+  <img src="assets/10.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement2 == 'levelAchievement2'">
+  <img src="assets/15.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement2 == 'levelAchievement3'">
+  <img src="assets/steps.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement2 == 'activityAchievement1'">
+  <img src="assets/week.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement2 == 'activityAchievement2'">
+  <img src="assets/perfect.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement2 == 'activityAchievement3'">
+</div>
+<div class="achievement" style="top: 45%; left: 80%" (click)="removeAchievement(3)">
+  <img src="assets/5.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement3 == 'levelAchievement1'">
+  <img src="assets/10.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement3 == 'levelAchievement2'">
+  <img src="assets/15.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement3 == 'levelAchievement3'">
+  <img src="assets/steps.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement3 == 'activityAchievement1'">
+  <img src="assets/week.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement3 == 'activityAchievement2'">
+  <img src="assets/perfect.png" style="height: 100%; width: 100%;" *ngIf="achievementData.pinnedAchievement3 == 'activityAchievement3'">
+</div>

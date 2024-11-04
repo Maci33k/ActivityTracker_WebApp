@@ -1,0 +1,128 @@
+.top-container
+{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.image
+{
+  border-radius: 50%;
+  width: 25vw;
+  height: 45vh;
+  margin-left: 15%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px #888888;;
+}
+
+.image:hover
+{
+  cursor: pointer;
+}
+
+.info
+{
+  background-color: #f8f9fa;
+  margin-left: 5%;
+  width: 50%;
+  height: 50%;
+  display: block;
+  border-bottom: 2px solid black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name
+{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 4vw;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.location
+{
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 3vw;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fa-solid.fa-user
+{
+  font-size: 1800%;
+}
+
+.email
+{
+  margin-left: 10%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  font-size: 2vw;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fa-regular.fa-envelope
+{
+  font-size: 3vw;
+}
+
+.fa-solid.fa-user-secret
+{
+  font-size: 3vw;
+}
+
+.lvl-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar
+{
+  width: 80%;
+}
+
+.current-lvl, .next-lvl
+{
+  font-size: 5vw;
+  font-weight: 900;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.current-lvl-info
+{
+  font-size: 3vw;
+  font-weight: 900;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.achievement
+ {
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.achievement:hover
+{
+  cursor: pointer;
+}

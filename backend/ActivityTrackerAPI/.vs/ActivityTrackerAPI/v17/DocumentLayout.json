@@ -1,0 +1,1164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\services\\verificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:services\\verificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\userlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\userlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\trainingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\trainingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\trackedactivities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\trackedactivities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\goals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\goals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\friends.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\activitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\activitydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:models\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20241017105453_migration-v-2-8-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20241017105453_migration-v-2-8-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\verificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\verificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\userlevelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\userlevelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\userconfigscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\userconfigscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\trainingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\trainingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\goalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\goalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\friendscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\activitydatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\activitydatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\controllers\\achievementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:controllers\\achievementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20241016105318_migration-v-2-6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20241016105318_migration-v-2-6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20241014131529_migration-v-2-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20241014131529_migration-v-2-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240905094713_modification-of-results-table2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240905094713_modification-of-results-table2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240820084819_RenameTrainingToTrainings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240820084819_RenameTrainingToTrainings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240819112412_migration-v-2-0-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240819112412_migration-v-2-0-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240801134203_migration-v-1-7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240801134203_migration-v-1-7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240819112112_migration-v-2-0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240819112112_migration-v-2-0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819115003_migration-v-2-0-6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240819115003_migration-v-2-0-6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240817083845_migration-v-1-9-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240817083845_migration-v-1-9-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819113438_migration-v-2-0-3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240819113438_migration-v-2-0-3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240816150841_migration-v-1-9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240816150841_migration-v-1-9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240809120235_migration-v-1-8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240809120235_migration-v-1-8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240620143223_migration-v-1-0-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240620143223_migration-v-1-0-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240619160358_migration-v-0-9-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240619160358_migration-v-0-9-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240619151349_migration-v-0-8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240619151349_migration-v-0-8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240528112909_migration-v-0-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240528112909_migration-v-0-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240519113452_migration-v-0-3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240519113452_migration-v-0-3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\activitytrackerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:activitytrackerapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240519113219_migration-v-0-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240519113219_migration-v-0-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240430090144_migration-v-0-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240430090144_migration-v-0-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\activitytrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:activitytrackerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240528131950_migration-v-0-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240528131950_migration-v-0-5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240614120018_migration-v-0-7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240614120018_migration-v-0-7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240614083018_migration-v-0-6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240614083018_migration-v-0-6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240619155513_migration-v-0-9-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240619155513_migration-v-0-9-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240619154642_migrationv-0-9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240619154642_migrationv-0-9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240620141931_migration-v-1-0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240620141931_migration-v-1-0.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240816151348_migration-v-1-9-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240816151348_migration-v-1-9-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Training.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819151712_migration-v-2-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240819151712_migration-v-2-1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240820084307_migration-v-2-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240820084307_migration-v-2-2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240827092847_migration-v-2-3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240827092847_migration-v-2-3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20240905084708_modification-of-results-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20240905084708_modification-of-results-table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20241010161957_migration-v-2-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20241010161957_migration-v-2-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20241011083606_rename-v-2-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20241011083606_rename-v-2-4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20241017105408_migration-v-2-8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20241017105408_migration-v-2-8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|c:\\users\\macie\\onedrive\\pulpit\\pracadyplomowa\\aplikacja\\backend\\activitytrackerapi\\migrations\\20241017100755_migration-v-2-7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1339761-E836-4275-B38A-329B5154BA02}|ActivityTrackerAPI.csproj|solutionrelative:migrations\\20241017100755_migration-v-2-7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLevel.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\UserLevel.cs",
+              "RelativeDocumentMoniker": "Models\\UserLevel.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\UserLevel.cs",
+              "RelativeToolTip": "Models\\UserLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:15:11.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserConfig.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\UserConfig.cs",
+              "RelativeDocumentMoniker": "Models\\UserConfig.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\UserConfig.cs",
+              "RelativeToolTip": "Models\\UserConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:15:09.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Results.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Results.cs",
+              "RelativeDocumentMoniker": "Models\\Results.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Results.cs",
+              "RelativeToolTip": "Models\\Results.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T11:59:36.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrackedActivities.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\TrackedActivities.cs",
+              "RelativeDocumentMoniker": "Models\\TrackedActivities.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\TrackedActivities.cs",
+              "RelativeToolTip": "Models\\TrackedActivities.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:36:47.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:43:43.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "Services\\PasswordService.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\PasswordService.cs",
+              "RelativeToolTip": "Services\\PasswordService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:24:34.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\TokenService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:07:33.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VerificationService.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\VerificationService.cs",
+              "RelativeDocumentMoniker": "Services\\VerificationService.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Services\\VerificationService.cs",
+              "RelativeToolTip": "Services\\VerificationService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:20:41.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Notification.cs",
+              "RelativeToolTip": "Models\\Notification.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T11:50:37.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Goals.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Goals.cs",
+              "RelativeDocumentMoniker": "Models\\Goals.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Goals.cs",
+              "RelativeToolTip": "Models\\Goals.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:14:42.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Friends.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Friends.cs",
+              "RelativeDocumentMoniker": "Models\\Friends.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Friends.cs",
+              "RelativeToolTip": "Models\\Friends.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T09:10:54.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActivityData.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\ActivityData.cs",
+              "RelativeDocumentMoniker": "Models\\ActivityData.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\ActivityData.cs",
+              "RelativeToolTip": "Models\\ActivityData.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:03:49.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Achievement.cs",
+              "RelativeDocumentMoniker": "Models\\Achievement.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Achievement.cs",
+              "RelativeToolTip": "Models\\Achievement.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA3wBAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:13:49.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrainingData.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\TrainingData.cs",
+              "RelativeDocumentMoniker": "Models\\TrainingData.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\TrainingData.cs",
+              "RelativeToolTip": "Models\\TrainingData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:07:11.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA2wCgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T13:41:06.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241017105453_migration-v-2-8-1.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241017105453_migration-v-2-8-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241017105453_migration-v-2-8-1.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241017105453_migration-v-2-8-1.cs",
+              "RelativeToolTip": "Migrations\\20241017105453_migration-v-2-8-1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:54:54.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\DbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DbContext\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\DbContext\\AppDbContext.cs",
+              "RelativeToolTip": "DbContext\\AppDbContext.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAmwEcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:17:02.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T08:43:41.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VerificationController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\VerificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VerificationController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\VerificationController.cs",
+              "RelativeToolTip": "Controllers\\VerificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:24:38.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAP8AAAAAAAAAAAAAAKYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:22:27.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserLevelsController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\UserLevelsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserLevelsController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\UserLevelsController.cs",
+              "RelativeToolTip": "Controllers\\UserLevelsController.cs",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T18:13:21.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TrainingDataController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\TrainingDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TrainingDataController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\TrainingDataController.cs",
+              "RelativeToolTip": "Controllers\\TrainingDataController.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAywAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:07:06.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ResultsController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "Controllers\\ResultsController.cs",
+              "ViewState": "AQIAAKEBAAAAAAAAAAAAAM0AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:45:32.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\Registration.cs",
+              "RelativeDocumentMoniker": "Controllers\\Registration.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\Registration.cs",
+              "RelativeToolTip": "Controllers\\Registration.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:31:01.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "Controllers\\NotificationsController.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAH8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T12:02:48.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GoalsController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\GoalsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GoalsController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\GoalsController.cs",
+              "RelativeToolTip": "Controllers\\GoalsController.cs",
+              "ViewState": "AQIAAL8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:33:41.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FriendsController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\FriendsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FriendsController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\FriendsController.cs",
+              "RelativeToolTip": "Controllers\\FriendsController.cs",
+              "ViewState": "AQIAAB4BAAAAAAAAAAAAAH4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T09:16:18.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserConfigsController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\UserConfigsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserConfigsController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\UserConfigsController.cs",
+              "RelativeToolTip": "Controllers\\UserConfigsController.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T12:59:33.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ActivityDataController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\ActivityDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActivityDataController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\ActivityDataController.cs",
+              "RelativeToolTip": "Controllers\\ActivityDataController.cs",
+              "ViewState": "AQIAADQBAAAAAAAAAAAAAO0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T10:21:58.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AchievementsController.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\AchievementsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AchievementsController.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Controllers\\AchievementsController.cs",
+              "RelativeToolTip": "Controllers\\AchievementsController.cs",
+              "ViewState": "AQIAABEBAAAAAAAAAAAYwJUAAACGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:25:30.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "20241017105408_migration-v-2-8.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241017105408_migration-v-2-8.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241017105408_migration-v-2-8.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241017105408_migration-v-2-8.cs",
+              "RelativeToolTip": "Migrations\\20241017105408_migration-v-2-8.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:54:08.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "20241017100755_migration-v-2-7.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241017100755_migration-v-2-7.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241017100755_migration-v-2-7.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241017100755_migration-v-2-7.cs",
+              "RelativeToolTip": "Migrations\\20241017100755_migration-v-2-7.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:07:56.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241016105318_migration-v-2-6.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241016105318_migration-v-2-6.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241016105318_migration-v-2-6.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241016105318_migration-v-2-6.cs",
+              "RelativeToolTip": "Migrations\\20241016105318_migration-v-2-6.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T10:53:19.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20241011083606_rename-v-2-4.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241011083606_rename-v-2-4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241011083606_rename-v-2-4.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241011083606_rename-v-2-4.cs",
+              "RelativeToolTip": "Migrations\\20241011083606_rename-v-2-4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T08:36:07.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20241014131529_migration-v-2-5.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241014131529_migration-v-2-5.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241014131529_migration-v-2-5.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241014131529_migration-v-2-5.cs",
+              "RelativeToolTip": "Migrations\\20241014131529_migration-v-2-5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:15:30.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "20241010161957_migration-v-2-4.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241010161957_migration-v-2-4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241010161957_migration-v-2-4.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20241010161957_migration-v-2-4.cs",
+              "RelativeToolTip": "Migrations\\20241010161957_migration-v-2-4.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T16:19:57.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20240905094713_modification-of-results-table2.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240905094713_modification-of-results-table2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240905094713_modification-of-results-table2.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240905094713_modification-of-results-table2.cs",
+              "RelativeToolTip": "Migrations\\20240905094713_modification-of-results-table2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:47:13.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "20240905084708_modification-of-results-table.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240905084708_modification-of-results-table.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240905084708_modification-of-results-table.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240905084708_modification-of-results-table.cs",
+              "RelativeToolTip": "Migrations\\20240905084708_modification-of-results-table.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:47:09.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20240827092847_migration-v-2-3.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240827092847_migration-v-2-3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240827092847_migration-v-2-3.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240827092847_migration-v-2-3.cs",
+              "RelativeToolTip": "Migrations\\20240827092847_migration-v-2-3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T09:28:47.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20240820084307_migration-v-2-2.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240820084307_migration-v-2-2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240820084307_migration-v-2-2.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240820084307_migration-v-2-2.cs",
+              "RelativeToolTip": "Migrations\\20240820084307_migration-v-2-2.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:43:07.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20240819151712_migration-v-2-1.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819151712_migration-v-2-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240819151712_migration-v-2-1.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819151712_migration-v-2-1.cs",
+              "RelativeToolTip": "Migrations\\20240819151712_migration-v-2-1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T15:17:12.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:31:49.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240820084819_RenameTrainingToTrainings.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240820084819_RenameTrainingToTrainings.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240820084819_RenameTrainingToTrainings.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240820084819_RenameTrainingToTrainings.cs",
+              "RelativeToolTip": "Migrations\\20240820084819_RenameTrainingToTrainings.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T08:48:54.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Training.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Training.cs",
+              "RelativeDocumentMoniker": "Models\\Training.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Models\\Training.cs",
+              "RelativeToolTip": "Models\\Training.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:27:28.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240801134203_migration-v-1-7.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240801134203_migration-v-1-7.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240801134203_migration-v-1-7.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240801134203_migration-v-1-7.cs",
+              "RelativeToolTip": "Migrations\\20240801134203_migration-v-1-7.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:26:32.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240819112412_migration-v-2-0-1.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819112412_migration-v-2-0-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240819112412_migration-v-2-0-1.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819112412_migration-v-2-0-1.cs",
+              "RelativeToolTip": "Migrations\\20240819112412_migration-v-2-0-1.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwCwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:24:13.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20240819115003_migration-v-2-0-6.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819115003_migration-v-2-0-6.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240819115003_migration-v-2-0-6.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819115003_migration-v-2-0-6.cs",
+              "RelativeToolTip": "Migrations\\20240819115003_migration-v-2-0-6.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:50:03.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240819112112_migration-v-2-0.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819112112_migration-v-2-0.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240819112112_migration-v-2-0.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819112112_migration-v-2-0.cs",
+              "RelativeToolTip": "Migrations\\20240819112112_migration-v-2-0.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:21:12.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20240817083845_migration-v-1-9-2.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240817083845_migration-v-1-9-2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240817083845_migration-v-1-9-2.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240817083845_migration-v-1-9-2.cs",
+              "RelativeToolTip": "Migrations\\20240817083845_migration-v-1-9-2.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T08:38:45.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240809120235_migration-v-1-8.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240809120235_migration-v-1-8.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240809120235_migration-v-1-8.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240809120235_migration-v-1-8.cs",
+              "RelativeToolTip": "Migrations\\20240809120235_migration-v-1-8.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T12:02:36.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20240819113438_migration-v-2-0-3.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819113438_migration-v-2-0-3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240819113438_migration-v-2-0-3.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240819113438_migration-v-2-0-3.cs",
+              "RelativeToolTip": "Migrations\\20240819113438_migration-v-2-0-3.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:34:39.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20240816151348_migration-v-1-9-1.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240816151348_migration-v-1-9-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240816151348_migration-v-1-9-1.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240816151348_migration-v-1-9-1.cs",
+              "RelativeToolTip": "Migrations\\20240816151348_migration-v-1-9-1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T15:13:48.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240816150841_migration-v-1-9.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240816150841_migration-v-1-9.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240816150841_migration-v-1-9.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240816150841_migration-v-1-9.cs",
+              "RelativeToolTip": "Migrations\\20240816150841_migration-v-1-9.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T15:08:42.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T08:25:38.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240620143223_migration-v-1-0-1.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240620143223_migration-v-1-0-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240620143223_migration-v-1-0-1.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240620143223_migration-v-1-0-1.cs",
+              "RelativeToolTip": "Migrations\\20240620143223_migration-v-1-0-1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T14:32:23.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20240620141931_migration-v-1-0.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240620141931_migration-v-1-0.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240620141931_migration-v-1-0.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240620141931_migration-v-1-0.cs",
+              "RelativeToolTip": "Migrations\\20240620141931_migration-v-1-0.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T14:19:31.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240619160358_migration-v-0-9-2.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619160358_migration-v-0-9-2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240619160358_migration-v-0-9-2.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619160358_migration-v-0-9-2.cs",
+              "RelativeToolTip": "Migrations\\20240619160358_migration-v-0-9-2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T16:03:58.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240619155513_migration-v-0-9-1.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619155513_migration-v-0-9-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240619155513_migration-v-0-9-1.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619155513_migration-v-0-9-1.cs",
+              "RelativeToolTip": "Migrations\\20240619155513_migration-v-0-9-1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:55:13.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20240619154642_migrationv-0-9.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619154642_migrationv-0-9.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240619154642_migrationv-0-9.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619154642_migrationv-0-9.cs",
+              "RelativeToolTip": "Migrations\\20240619154642_migrationv-0-9.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:46:43.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20240619151349_migration-v-0-8.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619151349_migration-v-0-8.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240619151349_migration-v-0-8.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240619151349_migration-v-0-8.cs",
+              "RelativeToolTip": "Migrations\\20240619151349_migration-v-0-8.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T15:13:50.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20240614120018_migration-v-0-7.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240614120018_migration-v-0-7.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240614120018_migration-v-0-7.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240614120018_migration-v-0-7.cs",
+              "RelativeToolTip": "Migrations\\20240614120018_migration-v-0-7.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:00:19.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20240614083018_migration-v-0-6.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240614083018_migration-v-0-6.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240614083018_migration-v-0-6.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240614083018_migration-v-0-6.cs",
+              "RelativeToolTip": "Migrations\\20240614083018_migration-v-0-6.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T08:30:18.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20240528131950_migration-v-0-5.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240528131950_migration-v-0-5.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240528131950_migration-v-0-5.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240528131950_migration-v-0-5.cs",
+              "RelativeToolTip": "Migrations\\20240528131950_migration-v-0-5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T13:19:51.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20240528112909_migration-v-0-4.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240528112909_migration-v-0-4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240528112909_migration-v-0-4.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240528112909_migration-v-0-4.cs",
+              "RelativeToolTip": "Migrations\\20240528112909_migration-v-0-4.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:29:10.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20240519113452_migration-v-0-3.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240519113452_migration-v-0-3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240519113452_migration-v-0-3.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240519113452_migration-v-0-3.cs",
+              "RelativeToolTip": "Migrations\\20240519113452_migration-v-0-3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:34:52.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ActivityTrackerAPI.http",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\ActivityTrackerAPI.http",
+              "RelativeDocumentMoniker": "ActivityTrackerAPI.http",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\ActivityTrackerAPI.http",
+              "RelativeToolTip": "ActivityTrackerAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-30T08:25:30.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T08:24:59.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240519113219_migration-v-0-2.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240519113219_migration-v-0-2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240519113219_migration-v-0-2.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240519113219_migration-v-0-2.cs",
+              "RelativeToolTip": "Migrations\\20240519113219_migration-v-0-2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T11:32:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240430090144_migration-v-0-1.cs",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240430090144_migration-v-0-1.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240430090144_migration-v-0-1.cs",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\Migrations\\20240430090144_migration-v-0-1.cs",
+              "RelativeToolTip": "Migrations\\20240430090144_migration-v-0-1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:01:45.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ActivityTrackerAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\ActivityTrackerAPI.csproj",
+              "RelativeDocumentMoniker": "ActivityTrackerAPI.csproj",
+              "ToolTip": "C:\\Users\\macie\\OneDrive\\Pulpit\\PracaDyplomowa\\aplikacja\\backend\\ActivityTrackerAPI\\ActivityTrackerAPI.csproj",
+              "RelativeToolTip": "ActivityTrackerAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-30T08:13:30.284Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

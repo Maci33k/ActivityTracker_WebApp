@@ -1,0 +1,52 @@
+<div class="set-activities" (drop)="onDrop($event)" (dragover)="onDragOver($event)" @slideInFromLeft>
+  <i class="fa-solid fa-shoe-prints" [ngClass]="{'white-icon-tile-without-input': true}" *ngIf="configData.steps" (click)="removeTrackedActivity('steps')"></i>
+  <i class="fa-solid fa-fire" [ngClass]="{'white-icon-tile-without-input': true}" *ngIf="configData.calories" (click)="removeTrackedActivity('calories')"></i>
+  <i class="fa-solid fa-droplet" [ngClass]="{'white-icon-tile-without-input': true}" *ngIf="configData.water" (click)="removeTrackedActivity('water')"></i>
+  <i class="fa-solid fa-person-running" [ngClass]="{'white-icon-tile-without-input': true}" *ngIf="configData.training" (click)="removeTrackedActivity('training')"></i>
+  <i class="fa-solid fa-moon" [ngClass]="{'white-icon-tile-without-input': true}" *ngIf="configData.sleepTime" (click)="removeTrackedActivity('sleep')"></i>
+</div>
+
+<div class="row" @slideInFromLeft>
+  <div id="draggable-0" class="col-3 mb-4 tile" draggable="true"
+       (dragstart)="onDragStart($event, thisPageIcons[0], 0)"
+       *ngIf="!configData.steps"
+       [@slideIn] [@fadeSlide]="thisPageIcons[0].state">
+    <i [class]="thisPageIcons[0].class" [ngClass]="{'white-icon-tile-without-input': true}"></i>
+    <span class="icon-name-tile-without-input">{{thisPageIcons[0].name}}</span>
+  </div>
+
+  <div id="draggable-1" class="col-3 mb-4 tile" draggable="true"
+       (dragstart)="onDragStart($event, thisPageIcons[1], 1)"
+       *ngIf="!configData.calories"
+       [@slideIn] [@fadeSlide]="thisPageIcons[1].state" @slideInFromLeft>
+    <i [class]="thisPageIcons[1].class" [ngClass]="{'white-icon-tile-without-input': true}"></i>
+    <span class="icon-name-tile-without-input">{{thisPageIcons[1].name}}</span>
+  </div>
+
+  <div id="draggable-1" class="col-3 mb-4 tile" draggable="true"
+       (dragstart)="onDragStart($event, thisPageIcons[2], 2)"
+       *ngIf="!configData.water"
+       [@slideIn] [@fadeSlide]="thisPageIcons[2].state" @slideInFromLeft>
+    <i [class]="thisPageIcons[2].class" [ngClass]="{'white-icon-tile-without-input': true}"></i>
+    <span class="icon-name-tile-without-input">{{thisPageIcons[2].name}}</span>
+  </div>
+
+  <div id="draggable-1" class="col-3 mb-4 tile" draggable="true"
+       (dragstart)="onDragStart($event, thisPageIcons[3], 3)"
+       *ngIf="!configData.training"
+       [@slideIn] [@fadeSlide]="thisPageIcons[3].state" @slideInFromLeft>
+    <i [class]="thisPageIcons[3].class" [ngClass]="{'white-icon-tile-without-input': true}"></i>
+    <span class="icon-name-tile-without-input">{{thisPageIcons[3].name}}</span>
+  </div>
+
+  <div id="draggable-1" class="col-3 mb-4 tile" draggable="true"
+       (dragstart)="onDragStart($event, thisPageIcons[4], 4)"
+       *ngIf="!configData.sleepTime"
+       [@slideIn] [@fadeSlide]="thisPageIcons[4].state" @slideInFromLeft>
+    <i [class]="thisPageIcons[4].class" [ngClass]="{'white-icon-tile-without-input': true}"></i>
+    <span class="icon-name-tile-without-input">{{thisPageIcons[4].name}}</span>
+  </div>
+
+</div>
+
+

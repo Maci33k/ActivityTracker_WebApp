@@ -1,0 +1,105 @@
+.buttons
+{
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: left;
+}
+
+.button
+{
+  width: 8vw;
+  margin-left: 14.5vw;
+}
+
+.score
+{
+  display: flex;
+  height: 20vh;
+  width: 40vw;
+  border-radius: 20px;
+  border: 5px solid black;
+  text-align: center;
+  align-items: center;
+  font-size: 15vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.score-average-container
+{
+  display: flex;
+  height: 60vh;
+  width: 40vw;
+  flex-direction: column;
+}
+
+.average
+{
+  display: flex;
+  height: 38vh;
+  margin-top: 2vh;
+  border: 5px solid black;
+  border-radius: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: column;
+}
+
+.row-average
+{
+  display: flex;
+  height: 3vh;
+  font-size: 3vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vh;
+}
+
+.activity
+{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+}
+
+.value
+{
+  display: flex;
+  width: 10vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.result
+{
+  display: flex;
+  width: 10vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.total
+{
+  display: flex;
+  height: 45vh;
+  width: 40vw;
+  margin-top: 8vh;
+  border-radius: 20px;
+  border: 5px solid black;
+  margin-left: 4vw;
+  flex-direction: column;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.data-container
+{
+  display: flex;
+  height: 60vh;
+  margin-top: 2vh;
+}

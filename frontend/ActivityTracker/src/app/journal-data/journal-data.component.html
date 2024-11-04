@@ -1,0 +1,91 @@
+<br><br>
+<div class="month">
+  {{monthName}} {{year}}
+</div>   <br><br>
+
+<div id="activity.id" *ngFor="let activity of activities; let i = index" [@slideIn]>
+
+<div class="date">{{activity?.date | date:'d'}} {{monthName}}</div> <br><br>
+
+<div class="row">
+  <div class="col-4" style="font-weight: 600;">
+    Kategoria
+  </div>
+  <div class="col-4" style="font-weight: 600;">
+    Ilość
+  </div>
+  <div class="col-4" style="font-weight: 600;">
+    Wynik
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-4">
+    <i [class]="icons[0].class"></i> <br> {{icons[0].name}}
+  </div>
+  <div class="col-4">
+      {{activity?.steps}}
+  </div>
+  <div class="col-4">
+      {{activity.stepsScore}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <i [class]="icons[1].class"></i> <br> {{icons[1].name}}
+  </div>
+  <div class="col-4">
+      {{activity?.calories}}
+  </div>
+  <div class="col-4">
+      {{activity.caloriesScore}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <i [class]="icons[2].class"></i> <br> {{icons[2].name}}
+  </div>
+  <div class="col-4">
+      {{activity?.water}}
+  </div>
+  <div class="col-4">
+      {{activity.waterScore}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <i [class]="icons[3].class"></i> <br> {{icons[3].name}} {{activity?.trainingType}}
+  </div>
+  <div class="col-4">
+      {{activity?.trainingTime}} <div *ngIf="activity.trainingTime != 0 && activity.trainingTime != null">min</div>
+      <div *ngIf="activity.trainingTime == 0 || activity.trainingTime == null">Brak danych</div>
+  </div>
+  <div class="col-4">
+      {{activity.trainingScore}}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-4">
+    <i [class]="icons[4].class"></i> <br> {{icons[4].name}}
+  </div>
+  <div class="col-4" *ngIf="activity.sleepTime != null">
+      {{hours[i]}}h {{minutes[i]}}min
+  </div>
+  <div class="col-4" *ngIf="activity.sleepTime == null ">
+    Brak danych
+  </div>
+  <div class="col-4">
+      {{activity.sleepScore}}
+  </div>
+  <br><br><br>
+  <div class="total-score">
+    <app-progress-bar [experience]="activity.overall" [maxExperience]="100"></app-progress-bar>
+  </div>
+</div> <br><br><br><br><br>
+
+</div>
