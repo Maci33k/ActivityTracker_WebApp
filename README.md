@@ -67,22 +67,28 @@ You can save your everyday's data in the fields provided by application. Algorit
 ![Screenshot](images/journal.png)
 
 ## Friends system 
+In the app you can search for friends, send invitations and view their profiles.
 ![Screenshot](images/friends.png)
 ![Screenshot](images/friend-invitation.png)
 
 ## User profile
+A place to view a user's profile. Here you can change your profile picture and pin achievements.
 ![Screenshot](images/profile.png)
 
 ## Notifications
+Every day, notifications are generated with the achieved results and tips on how to improve results in each activity.
 ![Screenshot](images/notifications.png)
 
 ## Achievements system
+A system for earning badges for specific tasks performed in the application.
 ![Screenshot](images/achievements.png)
 
 ## Summaries 
+Viewing results from a selected time range
 ![Screenshot](images/summary.png)
 
 ## Settings and options of configuration
+In the app, you can set the activities you want to save, personal data, and individual goals, which will then be analyzed by the algorithm.
 ![Screenshot](images/activities-config.png)
 ![Screenshot](images/settings-user.png)
 ![Screenshot](images/goals.png)
