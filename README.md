@@ -58,4 +58,6 @@ Below you can find some of the main functionalities already implemented in the a
 After completing the register form, verification email is sent. After clicking the link you are ready to log in into your account
 
 ![Screenshot](images/registration.png)
+![Screenshot](images/login.png)
+
 
