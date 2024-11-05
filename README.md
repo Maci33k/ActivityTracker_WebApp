@@ -78,3 +78,11 @@ You can save your everyday's data in the fields provided by application. Algorit
 
 ## Achievements system
 ![Screenshot](images/achievements.png)
+
+## Summaries 
+![Screenshot](images/summary.png)
+
+## Settings and options of configuration
+![Screenshot](images/activities-config.png)
+![Screenshot](images/settings-user.png)
+![Screenshot](images/goals.png)
