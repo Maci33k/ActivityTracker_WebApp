@@ -75,3 +75,6 @@ You can save your everyday's data in the fields provided by application. Algorit
 
 ## Notifications
 ![Screenshot](images/notifications.png)
+
+## Achievements system
+![Screenshot](images/achievements.png)
