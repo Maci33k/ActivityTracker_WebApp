@@ -72,3 +72,6 @@ You can save your everyday's data in the fields provided by application. Algorit
 
 ## User profile
 ![Screenshot](images/profile.png)
+
+## Notifications
+![Screenshot](images/notifications.png)
