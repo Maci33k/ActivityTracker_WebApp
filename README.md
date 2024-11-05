@@ -69,3 +69,6 @@ You can save your everyday's data in the fields provided by application. Algorit
 ## Friends system 
 ![Screenshot](images/friends.png)
 ![Screenshot](images/friend-invitation.png)
+
+## User profile
+![Screenshot](images/profile.png)
