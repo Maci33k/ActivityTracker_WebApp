@@ -55,9 +55,14 @@ UPDATE-DATABASE
 Below you can find some of the main functionalities already implemented in the application
 
 ## Registration and login
-After completing the register form, verification email is sent. After clicking the link you are ready to log in into your account
+After completing the register form, verification email is sent. When done, click the verification link and you are ready to log in into your account
 
 ![Screenshot](images/registration.png)
 ![Screenshot](images/login.png)
 
+## Saving data and receiving feedback
+You can save your everyday's data in the fields provided by application. Algorithm based on current science data will analyze them in terms of your personal informations such as gender, age, weight, height or athleticism, giving you achieved scores. Scores are calculated using default rules inside the algorithm or in relation to user's personal goals.
+
+![Screenshot](images/forms.png)
+![Screenshot](images/journal.png)
 
