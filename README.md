@@ -92,3 +92,9 @@ In the app, you can set the activities you want to save, personal data, and indi
 ![Screenshot](images/activities-config.png)
 ![Screenshot](images/settings-user.png)
 ![Screenshot](images/goals.png)
+
+## Things to implement
+I'm working mainly on these things to make the app complete and more user friendly
+- Make the app responsive for all the devices
+- Improve some graphics aspects of the application
+- Make HTTP request more efficient
