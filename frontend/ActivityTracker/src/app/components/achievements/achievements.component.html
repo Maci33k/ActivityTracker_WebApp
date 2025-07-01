@@ -53,7 +53,19 @@
   Wkrótce
 </div>
 
+<div class="row" @slideInFromLeft>
+  <div class="row-name">
+    Inne
+  </div>
+  Wkrótce
+</div>
 
+<div class="row" @slideInFromLeft>
+  <div class="row-name">
+    Inne
+  </div>
+  Wkrótce
+</div>
 
 
 <div class="tooltip" *ngIf="isTooltipVisible1 && !achievementData.achievement1" [ngStyle]="{'top.px': tooltipTop, 'left.px': tooltipLeft}"  (mouseenter)="cancelHideTooltip()" (mouseleave)="startHideTooltipTimeout('5')">
